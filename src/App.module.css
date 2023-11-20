@@ -1,0 +1,44 @@
+.viewport {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(closest-side, #23354c, #06171d);
+  color: #cfd7e2;
+}
+
+.container {
+  width: 720px;
+}
+
+.text {
+  resize: none;
+  display: block;
+  width: 100%;
+  height: 440px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #cfd7e2;
+  caret-color: #cfd7e2;
+}
+
+.text::placeholder {
+  color: #304969;
+  opacity: 1;
+}
+
+.configuration {
+  display: flex;
+  gap: 1rem;
+}
+
+.field {
+  flex: 1;
+}
+
+.label {
+  font-size: 1rem;
+  font-weight: 500;
+}
